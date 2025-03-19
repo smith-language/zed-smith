@@ -1,0 +1,12 @@
+id = "smith"
+name = "Smith"
+version = "0.0.1"
+schema_version = 1
+authors = ["Adam Kowalski <adam.kowalski.work@gmail.com>"]
+description = "Smith support."
+repository = "https://github.com/smith-language/zed-smith"
+
+
+[grammars.zig]
+repository = "https://github.com/smith-language/tree-sitter-smith"
+rev = "291e522272bdc41df6910099fcbb083e6fd3e96c"
