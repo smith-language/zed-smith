@@ -1,0 +1,4 @@
+[
+  "fn"
+  "let"
+] @keyword

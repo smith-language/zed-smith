@@ -6,7 +6,6 @@ authors = ["Adam Kowalski <adam.kowalski.work@gmail.com>"]
 description = "Smith support."
 repository = "https://github.com/smith-language/zed-smith"
 
-
-[grammars.zig]
+[grammars.smith]
 repository = "https://github.com/smith-language/tree-sitter-smith"
 rev = "291e522272bdc41df6910099fcbb083e6fd3e96c"
