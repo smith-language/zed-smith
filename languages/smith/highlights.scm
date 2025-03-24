@@ -16,11 +16,17 @@
 
 (boolean_literal) @boolean
 
-"struct" @keyword.class
+"struct" @keyword.type
 
 "fn" @keyword.function
 
 "for" @keyword.repeat
+
+[
+    "if"
+    "elif"
+    "else"
+] @keyword.conditional
 
 [
   "let"
