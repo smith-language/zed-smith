@@ -4,19 +4,28 @@
 
 (identifier) @variable
 
-(anonymous) @variable
+(anonymous) @character.special
 
 (function_definition
     name: (identifier) @function.name)
 
+(struct_definition
+    name: (identifier) @type)
+
 (call_expression
   function: (identifier) @function.call)
+
+(method_call_expression
+  method: (identifier) @function.call)
+
+(field_access_expression
+  field: (identifier) @variable.member)
 
 (integer_literal) @number
 
 (boolean_literal) @boolean
 
-"struct" @keyword.type
+"struct" @keyword.class
 
 "fn" @keyword.function
 
@@ -26,6 +35,7 @@
     "if"
     "elif"
     "else"
+    "match"
 ] @keyword.conditional
 
 [
