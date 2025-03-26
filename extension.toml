@@ -8,4 +8,4 @@ repository = "https://github.com/smith-language/zed-smith"
 
 [grammars.smith]
 repository = "https://github.com/smith-language/tree-sitter-smith"
-rev = "261562f1ed3c084c2a4d79f65e167fe50d65ee07"
+rev = "c7bdaa8f99ed818c660419602c46d9995a0cd253"

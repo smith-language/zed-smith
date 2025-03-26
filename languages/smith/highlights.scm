@@ -25,6 +25,14 @@
 
 (boolean_literal) @boolean
 
+(string_literal) @string
+
+(template_literal
+  tag: (identifier) @function.special)
+
+(template_chars) @string
+
+
 "struct" @keyword.class
 
 "fn" @keyword.function
